@@ -1,0 +1,106 @@
+body{
+	background: white;
+}
+
+.header{
+	height: 42px;
+}
+.header div{
+	color: #222;
+	font-family: arial;
+	font-size: 12px;
+	text-align: center;
+	padding-right: 15px;
+	float: right;
+	margin-top: 15px;
+	height: 100%;
+}
+.link{
+	position: relative;
+	top: 36%;
+	text-decoration: none;
+	color: #222;
+}
+
+.link:hover{
+	text-decoration: underline;
+}
+
+.header div a img{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.header div:first-child{
+	margin-right: 15px;
+	height: 100%;
+}
+
+.google_logo{
+	clear: both;
+	width: 272px;
+	height: 92px;
+	padding-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+.search_box {
+	width: 620px; height: 38px;
+	margin-top: 30px;
+	border: 1px solid #ccc;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+.button_box{
+	padding-top: 35px;
+	width: 280px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button_box div{
+	font-family: arial;
+	color: #b3b3b3;
+	background: #f2f2f2;
+	height: 36px;
+	line-height: 36px;
+	width: 132px;
+	text-align: center;
+}
+
+.button_box div a{
+	text-decoration: none;
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+.search_button {
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.lucky_button{
+	display: inline-block;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.footer{
+	margin-bottom: 0;
+	background-color: #f2f2f2;
+}
+
+.footer li{
+
+}
