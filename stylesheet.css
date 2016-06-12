@@ -97,10 +97,43 @@ body{
 }
 
 .footer{
-	margin-bottom: 0;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
 	background-color: #f2f2f2;
 }
 
 .footer li{
+	font-family: Arial;
+	font-size: 12px;
+	color: #666;
+	text-align: center;
+	padding: 16px 14px;
+	display: inline;
+}
 
+.footer li a{
+	text-decoration: none;
+	color: #666;
+}
+.footer li a:hover{
+	text-decoration: underline;
+}
+
+.left_footer{
+	float: left;
+}
+
+.right_footer{
+	float: right;
+}
+
+.left_most_footer{
+	float: left;
+	margin-left: 24px;
+}
+
+.right_most_footer{
+	float: right;
+	margin-right: 24px;
 }
